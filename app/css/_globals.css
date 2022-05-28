@@ -1,0 +1,138 @@
+:root{
+    --blue-pink: linear-gradient(#4851FF, #F02AA6);
+    --light-pink-gradient: linear-gradient(#FF6F48, #F02AA6);
+    --dark-blue: #13183F;
+}
+
+
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+a, a:visited, a:hover{
+    text-decoration: none;
+}
+
+.container{
+    padding: 3.0625rem 1rem 0rem 1rem;
+}
+header{
+    padding: 0 1rem 0 1rem;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: linear-gradient(#FFFFFF, #F0F1FF);
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+.logo-top{
+    width: 5.4375rem;
+    height: 1.5rem;
+    margin-top: 1.875rem;
+}
+.logo-down{
+    width: 5.4375rem;
+    height: 1.5rem;
+    margin: 3.125rem 0 3.125rem 0;
+}
+
+
+.flex-jc-sb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-jc-c{
+    display: flex;
+    justify-content: center;
+}
+.flex-ai-c{
+    display: flex;
+    align-items: center;
+}
+button, .button{
+    padding: 1.1875rem 1.9375rem;
+    border-radius: 50px;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: var(--light-pink-gradient);
+    font-size: 1rem;
+    display: inline-block;
+}
+
+button:hover{
+    opacity: 0.75;
+}
+
+
+
+.header-btn{
+    margin-top: 1rem;
+    width: 8.75rem;
+    height: 3rem;
+    border-radius: 40px;
+    background: var(--dark-blue);
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.footer-btn{
+    width: 8.75rem;
+    height: 3rem;
+    border-radius: 40px;
+    background: var(--blue-pink);
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 2.25rem 0 2.25rem 0;
+}
+.mid-btn{
+    width: 10.4375rem;
+    height: 3.5rem;
+}
+
+
+section p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-align: left;
+}
+
+section button{
+    margin: 0;
+}
+
+div h2{
+    padding-left: 1.75rem;
+    padding-top: 1.9375rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.item1{
+    background: var(--light-pink-gradient);
+    width: 100%;
+    height: 7.5rem;
+    border-radius: 10px;
+    text-align: left center;
+
+}
+
+footer{
+    background: #13183F;
+    width: 100%;
+    height: 7.5rem;
+    padding: 0 1rem 0 1rem;
+}
+
