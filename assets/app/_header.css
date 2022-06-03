@@ -1,0 +1,26 @@
+header{
+    margin: 0 1rem 0 1rem;
+}
+
+@media screen and (min-width: 48rem){
+    header{
+        margin: 0 2.5rem 0 2.5rem;
+    }
+    
+}
+
+.logo-top{
+    width: 5.4375rem;
+    height: 1.5rem;
+    margin-top: 1.875rem;
+}
+
+.header-btn{
+    margin-top: 1rem;
+    width: 8.75rem;
+    height: 3rem;
+    border-radius: 40px;
+    background: var(--dark-blue);
+    color: #FFFFFF;
+    font-size: 12px;
+}
