@@ -1,0 +1,59 @@
+#courses{
+    margin: 0 1rem 0 1rem;
+}
+
+
+.feature__click{
+    background: var(--light-pink-gradient);
+    border-radius: 10px;
+    height: 7.5rem;
+}
+
+.feature__item{
+    position: relative;
+    background: #FFFFFF;
+    height: 16.1875rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2.375rem;
+
+}
+
+@media screen and (min-width: 48rem) {
+    .feature__grid{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #courses{
+        margin: 0 2.5rem 0 2.5rem;
+    }
+
+    .feature__click{
+        height: 16.1875rem;
+        width: 21.1875rem;
+    }
+
+    .feature__item{
+        position: relative;
+        background: #FFFFFF;
+        height: 16.1875rem;
+        width: 21.1875rem;
+        border-radius: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    
+    }
+    
+}
+
+
+
+.feature__icon{
+    position: absolute;
+    bottom: 220px;
+    left: 28px;
+
+}
