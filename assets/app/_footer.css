@@ -1,0 +1,40 @@
+.footer__container{
+    margin: 0 1rem 0 1rem;
+}
+
+footer{
+    background: var(--dark-blue);
+    min-height: 7.5rem;
+}
+
+.logo-down{
+    width: 5.4375rem;
+    height: 1.5rem;
+    margin: 3.125rem 0 3.125rem 0;
+}
+
+.footer-btn{
+    margin-top: 2.25rem;
+    width: 8.75rem;
+    height: 3rem;
+    border-radius: 40px;
+    background: var(--blue-pink);
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 48rem) {
+    .footer__container{
+        margin: 0 2.5rem 0 2.5rem;
+    }
+    
+    
+}
+
+@media screen and (min-width: 69.5625rem) {
+    .footer__container{
+        max-width: 69.5625rem;
+        margin: auto;
+    }
+    
+}
