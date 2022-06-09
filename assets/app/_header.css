@@ -1,0 +1,64 @@
+header{
+    margin: 0 1rem 0 1rem;
+}
+
+
+
+.logo-top{
+    width: 5.4375rem;
+    height: 1.5rem;
+    margin-top: 1.875rem;
+}
+
+.header-btn{
+    margin-top: 1rem;
+    width: 8.75rem;
+    height: 3rem;
+    border-radius: 40px;
+    background: var(--dark-blue);
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 48rem){
+    header{
+        margin: 0 2.5rem 0 2.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 69.5625rem) {
+
+    .logo-top{
+        width: 6.948125rem;
+        height: 1.73rem;
+        margin-top: 1.875rem;
+    }
+
+    .header-btn{
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        width: 10.4375rem;
+        height: 3.5rem;
+        border-radius: 40px;
+        background: var(--dark-blue);
+        color: #FFFFFF;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .header-btn:hover{
+        animation-name: change_state;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes change_state{
+        100%{
+            background-color: #666CA3;
+        }
+    }
+
+    
+}
