@@ -34,8 +34,6 @@
 
 .description{
     margin: 0;
-    /* padding-top: 1.875rem; */
-    /* padding-bottom: 1.75rem; */
     padding-left: 1.75rem;
     padding-right: 1.75rem;
     font-size: 1rem;
@@ -53,7 +51,8 @@ section h2{
 }
 
 section h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 800;
     color: #13183F;
     margin: 0;
     padding-top: 3rem;
@@ -70,20 +69,44 @@ section h3 {
     padding-top: 1.875rem;
     padding-bottom: 1.75rem;
     padding-left: 1.75rem;
+    font-weight: 700;
+    font-size: 1.125rem;
 }
 
 
 @media screen and  (min-width: 48rem) {
 
-    /*
-    .feature__grid{
-        max-width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    } 
+    section h2{
+        margin: 0;
+        padding-top: 2rem;
+        padding-left: 1.75rem;
+        color: white;
+        padding-bottom: 2rem;
+        font-weight: 800;
+        line-height: 2rem;
+    }
 
-    */
+    section h3 {
+        font-size: 1.25rem;
+        font-weight: 800;
+        color: #13183F;
+        margin: 0;
+        padding-top: 3rem;
+        padding-bottom: 1.2175rem;
+        padding-left: 1.75rem;
+        padding-right: 1.75rem;
+    }
+
+    .description{
+        margin: 0;
+        padding-left: 1.75rem;
+        padding-right: 1.75rem;
+        font-size: 1rem;
+        line-height: 1.625rem;
+        font-weight: 500;
+    
+    }
+
 
     .feature__grid{
         width: 100%;
@@ -113,6 +136,8 @@ section h3 {
         margin-bottom: 0;
     
     }
+
+    
     
 }
 
@@ -135,20 +160,11 @@ section h3 {
     
 
     .feature__click{
-        /* height: 16.1875rem;
-        width: 100%;*/
         height: 20.375rem;
         width: 100%;
     }
 
     .feature__item{
-        /* position: relative;
-        background: #FFFFFF;
-        height: 16.1875rem;
-        width: 100%;
-        border-radius: 10px;
-        margin-top: 0;
-        margin-bottom: 0;*/
         position: relative;
         background: #FFFFFF;
         height: 20.375rem;
@@ -180,6 +196,7 @@ section h3 {
     }
 
     section h3 {
+        font-size: 1.25rem;
         margin: 0;
         padding-top: 4.375rem;
         padding-bottom: 0;
@@ -198,6 +215,8 @@ section h3 {
     .get_started{
         margin: 0;
         padding: 0 1.75rem;
+        font-weight: 700;
+        font-size: 1.125rem;
     }
 
     .description{
@@ -261,6 +280,8 @@ section h3 {
         margin: 0;
         padding: 0 1.75rem;
         cursor: pointer;
+        font-weight: 700;
+        font-size: 1.125rem;
     }
 
     .get_started:hover{
@@ -278,14 +299,14 @@ section h3 {
 
     .description{
         margin: 0;
-        /* padding-top: 1.875rem; */
-        /* padding-bottom: 1.75rem; */
         padding-left: 1.75rem;
         padding-right: 1.75rem;
         font-size: 1.125rem;
-        line-height: 1.75rem;
+        line-height: 1.75rem;    
+    }
 
-    
+    section h3 {
+        font-size: 1.5rem;
     }
 
 

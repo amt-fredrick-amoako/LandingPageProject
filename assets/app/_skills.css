@@ -4,6 +4,7 @@
 
 .skills__text h1{
     color: #13183f;
+    font-weight: 800;
 }
 
 .skill__image{
@@ -14,7 +15,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;
-    min-height: 27.75rem;/*18.75rem*/
+    min-height: 27.75rem;
 
 }
 
@@ -41,7 +42,7 @@
     .skills__container{
         display: flex;
         justify-content: space-between;
-        max-height: 32.5rem;
+        max-height: 35rem;
         max-width: 48rem;        
     }
 
@@ -92,7 +93,7 @@
     h1{
         font-size: 3.5rem;
         line-height: 4.375rem;
-        margin-bottom: 3.0625rem;z
+        margin-bottom: 3.0625rem;
     }
 
     button, .skills_button{
@@ -105,7 +106,7 @@
         cursor: pointer;
         background: var(--light-pink-gradient);
         font-size: 1rem;
-        font-weight: bold;
+        font-weight: 700;
         z-index: 2;
     }
 
@@ -122,7 +123,7 @@
     }
 
     .skills__text{
-        padding: 10.25rem 4.25rem 0 0;
+        padding: 10.25rem 3.25rem 0 0;
         margin: 0 1rem 0 0;
         flex: 2 0 50%;
     }   
@@ -137,7 +138,7 @@
     .skills__container{
         display: flex;
         justify-content: space-between;
-        max-height: 60rem;
+        max-height: 55rem;
         max-width: 69.5625rem; 
     }
 
