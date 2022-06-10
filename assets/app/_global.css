@@ -61,7 +61,7 @@ button{
     cursor: pointer;
     background: var(--light-pink-gradient);
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 700;
     z-index: 2;
 }
 
